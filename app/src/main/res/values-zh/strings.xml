@@ -3,4 +3,8 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Ni Hao!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="item1">看看我的GUI</string>
+    <string name="item2">点击这里</string>
+    <string name="item3">看一下这个!</string>
+    <string name="item5">打开/关闭</string>
 </resources>
