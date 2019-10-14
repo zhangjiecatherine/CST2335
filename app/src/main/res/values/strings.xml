@@ -7,4 +7,23 @@
     <string name="item3">Check this out!</string>
     <string name="item5">Switch on/off</string>
     <string name="item6">Type Here!</string>
+    <string name="item7">Enter your email address:</string>
+    <string name="item8">Type email here</string>
+    <string name="item9">Type your password:</string>
+    <string name="item10">Your profile</string>
+    <string name="item11">Your name:</string>
+    <string name="item12">Enter your name</string>
+    <string name="item13">Your email:</string>
+    <string name="item14">Enter your email</string>
+    <string name="item15">Your picture:</string>
+    <string name="item16">Click the button to take a picture</string>
+    <string name="item17">Login</string>
+    <string name="item18">Go to chat</string>
+    <string name="item19">SEND</string>
+    <string name="item20">RECEIVE</string>
+    <string name="item21">Type here</string>
+
+
+
+
 </resources>

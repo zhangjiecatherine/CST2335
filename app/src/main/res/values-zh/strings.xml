@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidLabs</string>
-    <string name="hello_message">Ni Hao!</string>
-    <string name="ButtonText">I\'m a button</string>
+    <string name="hello_message">你好，世界！</string>
+    <string name="ButtonText">我是一个按钮</string>
     <string name="item1">看看我的GUI</string>
     <string name="item2">点击这里</string>
     <string name="item3">看一下这个!</string>
     <string name="item5">打开/关闭</string>
+    <string name="item6">在此输入！</string>
+    <string name="item7">输入您的电子邮件地址：</string>
+    <string name="item8">在此处输入电子邮件</string>
+    <string name="item9">输入密码：</string>
+    <string name="item10">您的个人资料</string>
+    <string name="item11">您的名字：</string>
+    <string name="item12">输入您的名字</string>
+    <string name="item13">您的电子邮件:</string>
+    <string name="item14">输入您的电子邮件地址</string>
+    <string name="item15">您的图片:</string>
+    <string name="item16">点击按钮拍照</string>
+    <string name="item17">登录</string>
+    <string name="item18">去聊天</string>
+    <string name="item19">发送</string>
+    <string name="item20">接收</string>
+    <string name="item21">在此输入</string>
+
+
+
+
 </resources>
