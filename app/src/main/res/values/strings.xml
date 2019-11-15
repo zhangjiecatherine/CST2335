@@ -22,8 +22,12 @@
     <string name="item19">SEND</string>
     <string name="item20">RECEIVE</string>
     <string name="item21">Type here</string>
-
-
-
+    <string name="item22">Weather Forecast</string>
+    <string name="item23">Go to Toolbar page</string>
+    <string name="choice1">Choice1</string>
+    <string name="choice2">Choice2</string>
+    <string name="choice3">Choice3</string>
+    <string name="item24">Type here</string>
+    <string name="undo_string">GO BACK</string>
 
 </resources>

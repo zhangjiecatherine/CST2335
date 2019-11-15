@@ -23,6 +23,15 @@
     <string name="item19">发送</string>
     <string name="item20">接收</string>
     <string name="item21">在此输入</string>
+    <string name="item22">天气预报</string>
+    <string name="item23">转到工具栏页面</string>
+
+    <string name="choice1">选择1</string>
+    <string name="choice2">选择2</string>
+    <string name="choice3">选择3</string>
+
+    <string name="item24">在此输入</string>
+    <string name="undo_string">回去</string>
 
 
 

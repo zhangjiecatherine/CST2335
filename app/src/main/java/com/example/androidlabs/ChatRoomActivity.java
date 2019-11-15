@@ -107,21 +107,21 @@ public class ChatRoomActivity extends AppCompatActivity {
 
             if(thisRow == null) {
                 if (getItem(p).isSent) {
-                    thisRow = inflater.inflate(R.layout.listview_item_receive, null);
+                    thisRow = inflater.inflate(R.layout.listview_item_send, null);
                     TextView itemField = thisRow.findViewById(R.id.edit);
                     itemField.setText(getItem(p).message);
                 } else {
-                    thisRow = inflater.inflate(R.layout.listview_item_send, null);
+                    thisRow = inflater.inflate(R.layout.listview_item_receive, null);
                     TextView itemField = thisRow.findViewById(R.id.edit);
                     itemField.setText(getItem(p).message);
                 }
             } else {
                 if (getItem(p).isSent) {
-                    thisRow = inflater.inflate(R.layout.listview_item_receive, null);
+                    thisRow = inflater.inflate(R.layout.listview_item_send, null);
                     TextView itemField = thisRow.findViewById(R.id.edit);
                     itemField.setText(getItem(p).message);
                 } else {
-                    thisRow = inflater.inflate(R.layout.listview_item_send, null);
+                    thisRow = inflater.inflate(R.layout.listview_item_receive, null);
                     TextView itemField = thisRow.findViewById(R.id.edit);
                     itemField.setText(getItem(p).message);
                 }

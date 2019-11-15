@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/choice1"
+        android:title="@string/choice1"
+        android:icon="@drawable/peach"
+        android:orderInCategory="10"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/choice2"
+        android:title="@string/choice2"
+        android:icon="@drawable/pizza"
+        android:orderInCategory="20"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/choice3"
+        android:title="@string/choice3"
+        android:icon="@drawable/pineapple"
+        android:orderInCategory="30"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/choice4"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:showAsAction="never"
+        android:title="search"/>
+
+
+
+
+
+
+</menu>

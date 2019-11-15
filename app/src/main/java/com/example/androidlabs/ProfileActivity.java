@@ -24,6 +24,8 @@ public class ProfileActivity extends AppCompatActivity{
 
 
         mImageButton = (ImageButton)findViewById(R.id.imageButton);
+
+
         Intent emailFromPreviousPage = getIntent();
         String email = emailFromPreviousPage.getStringExtra("email");
         //get the values that were reserved under names "email"
@@ -50,6 +52,24 @@ public class ProfileActivity extends AppCompatActivity{
             //profilePage.putExtra("typed", et.getText().toString());
             //Now make the transition:
             startActivityForResult( profilePage, 345);
+        });
+
+        Button weatherButton = findViewById(R.id.weatherButton);
+        weatherButton.setOnClickListener( c -> {
+
+            Intent weatherPage = new Intent(ProfileActivity.this, WeatherForecast.class);
+
+
+            startActivityForResult( weatherPage, 345);
+        });
+
+        Button toolbarButton = findViewById(R.id.toolbarButton);
+        toolbarButton.setOnClickListener( c -> {
+
+            Intent toolbarPage = new Intent(ProfileActivity.this, TestToolbar.class);
+
+
+            startActivityForResult( toolbarPage, 345);
         });
 
 

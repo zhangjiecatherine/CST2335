@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherForecast">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/weather"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="174dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/imageView2"
+        android:text="Current Temperature"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="174dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/textView1"
+        android:text="Min Temperature"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="174dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/textView2"
+        android:text="Max Temperature"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="173dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView3"
+        android:text="UV rating"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleHorizontal"/>
+
+</RelativeLayout>
